@@ -1,0 +1,115 @@
+/* General Styles */
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* Container */
+.container {
+  width: 90%;
+  max-width: 1200px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+}
+
+/* Header */
+.header {
+  background: #2575fc;
+  text-align: center;
+  padding: 20px;
+}
+
+.header h1 {
+  font-family: 'Pacifico', cursive;
+  font-size: 2.5rem;
+  color: #fff;
+}
+
+/* Main Form */
+.main {
+  padding: 20px;
+}
+
+.form {
+  background: rgba(255, 255, 255, 0.2);
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.form h2 {
+  margin-bottom: 15px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+}
+
+.btn {
+  background: #6a11cb;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.btn:hover {
+  background: #2575fc;
+}
+
+/* Result Section */
+.result {
+  margin-top: 20px;
+  padding: 15px;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 8px;
+}
+
+.result h2 {
+  margin-bottom: 10px;
+}
+
+/* Sidebar Info */
+.info {
+  background: #6a11cb;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.info h3 {
+  margin-bottom: 10px;
+}
+
+.info ul {
+  list-style: none;
+  padding: 0;
+}
+
+.info ul li {
+  margin-bottom: 10px;
+}
